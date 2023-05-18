@@ -16,7 +16,7 @@ Codice per puntare la directory :
 
 se il file non esiste l'if viene ignorato altrimenti viene eseguito il seguente codice : 
 
- {
+        {
  
             using (Stream fileStream = await FileSystem.Current.OpenAppPackageFileAsync("chinook.db"))
             
