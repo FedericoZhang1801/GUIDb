@@ -12,7 +12,7 @@ SQLite.SQLiteOpenFlags Flags = SQLite.SQLiteOpenFlags.ReadWrite | SQLite.SQLiteO
 
 Codice per puntare la directory : 
 
-if (!File.Exists(targetFile))
+    if (!File.Exists(targetFile))
 
 se il file non esiste l'if viene ignorato altrimenti viene eseguito il seguente codice : 
 
